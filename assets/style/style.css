@@ -1,0 +1,884 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1538px;
+  width: 100%;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: transparent;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+/* header css start */
+.header {
+  background-color: #fffbed;
+  position: relative;
+}
+.cercle-design {
+  position: absolute;
+}
+.full-header-div {
+  padding: 21px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.main-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.menu-txt {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.menu-btn {
+  display: none;
+  cursor: pointer;
+}
+
+.contect-us-btn {
+  border: 1px solid #eac07f;
+  border-radius: 20px;
+  background-color: #eabf7fa1;
+  text-transform: uppercase;
+  color: white;
+  padding: 12px 30px 12px 30px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 1px 1px 30px #eabf7fd2;
+}
+.contect-us-btn:hover {
+  background-color: #eac07f;
+  box-shadow: 1px 1px 100px #fda829;
+}
+/* header css end */
+/* popup sectoin  css  start*/
+.popup-div {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #d6ceb7;
+  border-radius: 15px;
+  position: absolute;
+  top: 210px;
+  left: 50%;
+  z-index: 33;
+  max-width: 400px;
+  width: 100%;;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+  transform: scaleY(0) translateX(-30%);
+  transform-origin: top;
+}
+
+.popup-headings {
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+  font-weight: 900;
+}
+.popup-btn {
+  align-self: flex-end;
+}
+.popup-close-btn{
+  display: none;
+}
+
+/* popup sectoin  css  end*/
+/* main css start */
+
+/* benner section css start */
+.benner-section12 {
+  background-color: #fffbed;
+}
+
+.main-benner {
+  display: flex;
+  background-color: #fffbed;
+  align-items: end;
+}
+.main-benner-txt {
+  margin-top: 80px;
+}
+.sales-m-logo {
+  width: 321px;
+  height: 197px;
+}
+.main-benner-img {
+  width: 711px;
+  height: 766px;
+  z-index: 1;
+}
+.heading1 {
+  font-size: 96px;
+  text-transform: uppercase;
+}
+.size-20 {
+  font-size: 20px;
+  opacity: 87%;
+  margin: 30px 0 20px;
+}
+.size-18 {
+  font-size: 18px;
+  opacity: 60%;
+  border-left: 5px solid #eac07f;
+  max-width: 696px;
+  padding-left: 20px;
+}
+.button-div {
+  display: flex;
+  align-items: center;
+}
+.my-best-btn {
+  margin: 70px 0 170px;
+  border: 1px solid #fe0150;
+  border-radius: 20px;
+  background-color: #fe015183;
+  text-transform: uppercase;
+  color: white;
+  padding: 12px 30px 12px 30px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 219px;
+  width: 100%;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: 1px 1px 20px #fe0151af;
+}
+.my-best-btn:hover {
+  background-color: #fe0150;
+  box-shadow: 1px 1px 60px #fe0150;
+}
+.m-font {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+}
+.dm-font {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+.relative {
+  position: relative;
+  display: flex;
+  align-items: end;
+}
+.flower-design {
+  position: absolute;
+  left: -200px;
+  bottom: 0%;
+}
+.benner-design {
+  position: absolute;
+  right: -150px;
+  top: 16%;
+}
+
+.z-index {
+  z-index: 1;
+}
+/* benner section css end */
+
+/* Retreat Experience section css start */
+.margin-100 {
+  margin: 100px 0;
+}
+.t-align {
+  text-align: center;
+}
+.font-48 {
+  font-size: 48px;
+}
+.font-34 {
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.font-18 {
+  font-size: 18px;
+  margin-bottom: 130px;
+}
+.links-a {
+  transition: all 0.5s;
+  color: black;
+}
+.links-a:hover {
+  border-bottom: 1px solid;
+  color: blue;
+}
+.retreat-section {
+  display: flex;
+  gap: 66px;
+  justify-content: space-between;
+  margin: 50px 0;
+  position: relative;
+}
+.f-design-rs {
+  position: absolute;
+  right: -136px;
+  top: -150px;
+}
+.retreat-e-details {
+  margin: 37.5px 0;
+  max-width: 711px;
+  width: 100%;
+}
+
+/* Retreat Experience section css end */
+
+/* Testimony section css start */
+.testimony-section {
+  background-color: #e1ded6;
+  margin: 100px 0;
+  padding: 100px 0;
+  position: relative;
+}
+.testimony-design-1 {
+  position: absolute;
+  top: 69px;
+  left: -24px;
+}
+.testimony-design-2 {
+  position: absolute;
+  bottom: -9px;
+  right: -10px;
+}
+
+.testimony-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.testimony-img-details {
+  background-color: white;
+  font-size: 24px;
+  padding: 24px 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transition: all 0.6s;
+  background-color: white;
+}
+.cards {
+  box-shadow: 1px 5px 8px 0 rgba(0, 0, 0, 0.7);
+  transition: all 0.4s;
+  border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+  z-index: 9;
+  bottom: 0;
+  background-color: white;
+}
+.cards:hover {
+  box-shadow: 1px 9px 16px 0 rgba(0, 0, 0, 0.7);
+  bottom: 10px;
+}
+
+.cards:hover .testimony-img-details {
+  background-color: #e5b880;
+}
+/* Testimony section css end */
+
+/* members section css start */
+.members-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  margin-top: 50px;
+}
+.co-founder-txt {
+  font-size: 18px;
+  opacity: 60%;
+}
+.meet-amanda {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  font-size: 22px;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s;
+}
+.meet-amanda:hover {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #42424262;
+}
+.meet-amanda-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 13px;
+  text-align: center;
+  display: none;
+  text-decoration: underline #29b5ec;
+}
+
+.members-images {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.yellow-overlay {
+  background-color: #ffff0042;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  border-radius: 15px;
+  transition: all 0.5s;
+  border-radius: 15px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.members-images:hover .yellow-overlay {
+  opacity: 1;
+  cursor: pointer;
+  height: 100%;
+}
+.members-images:hover .meet-amanda {
+  opacity: 1;
+}
+.member-names:hover {
+  background-color: #ffffff;
+}
+/* members section css end */
+
+/* book-now  section css start */
+.book-now-m-div {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.book-now-para-M {
+  margin: 50px 0 70px;
+  max-width: 662px;
+  width: 100%;
+}
+.book-now-btn {
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #02020273;
+  text-transform: uppercase;
+  color: white;
+  padding: 12px 30px 12px 30px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 219px;
+  width: 100%;
+  gap: 6px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.book-now-btn:hover {
+  background-color: black;
+  box-shadow: 1px 1px 20px black;
+}
+.retreat-img-div {
+  display: flex;
+  gap: 30px;
+}
+.retreat-images {
+  background-color: #ffffff;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+.img-btn {
+  padding: 15px 30px;
+  background-color: #f9eabd;
+  position: absolute;
+  opacity: 0;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 24px;
+  transition: all 0.5s;
+}
+.img-btn:hover {
+  background-color: aquamarine;
+}
+.retreat-images:hover .overlay {
+  opacity: 0.5;
+}
+.retreat-images:hover .img-btn {
+  opacity: 1;
+}
+/* book-now  section css end */
+
+/* Teachings of Jesus section start */
+.techings-div {
+  display: flex;
+  gap: 128px;
+  justify-content: space-between;
+}
+.teachings-txt {
+  margin: 97.5px 0;
+}
+.teachings-txt-para {
+  font-size: 18px;
+}
+.margin-30 {
+  margin-bottom: 30px;
+}
+/* Teachings of Jesus section end */
+/* main css end */
+
+/* footer  css start */
+.footer-s {
+  background-color: black;
+  margin-top: 100px;
+  padding: 100px 0 30px;
+}
+.all-footer-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 313px;
+  width: 100%;
+}
+.margin-b {
+  margin-bottom: 51px;
+}
+.content-details {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.white1 {
+  color: white;
+}
+.footer-div2 {
+  max-width: 311px;
+  width: 100%;
+}
+.footer-div3 {
+  max-width: 470px;
+  width: 100%;
+}
+.footer-heading {
+  font-size: 20px;
+  margin-bottom: 34px;
+  color: white;
+}
+.footer-para {
+  font-size: 16px;
+  color: white;
+}
+.email123 {
+  border: 1px solid white;
+  border-radius: 30px;
+  color: white;
+  padding: 13px 12px;
+  margin: 50px 0 30px;
+  width: 100%;
+  font-size: 20px;
+}
+/* footer2 section start */
+.footer2-f-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 61px;
+  border-top: 1px solid #424242;
+  padding-top: 30px;
+}
+
+.footer2-links {
+  display: flex;
+  gap: 20px;
+}
+/* footer2 section end */
+
+/* footer  css end */
+
+.images1 {
+  margin: auto;
+  max-width: 50%;
+}
+/* Breakpoints for screen */
+
+@media (max-width: 1230px) {
+  .heading1 {
+    font-size: 72px;
+  }
+  .main-benner {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .benner-design {
+    top: 0%;
+    right: -80px;
+    width: 200px;
+  }
+  .main-benner-img {
+    margin: 0 auto;
+  }
+  .my-best-btn {
+    margin: 50px 0 100px;
+  }
+  .all-designs {
+    display: none;
+  }
+  .font-48 {
+    font-size: 35px;
+  }
+  .font-18 {
+    margin-bottom: 70px;
+  }
+  .testimony-img-details {
+    font-size: 20px;
+    padding: 18px 20px;
+  }
+  .techings-div {
+    gap: 65px;
+  }
+  .teachings-txt {
+    margin: 25px 0;
+  }
+
+  .footer-s {
+    margin-top: 90px;
+    padding: 90px 0 30px;
+  }
+  .all-footer-div {
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+  }
+}
+@media (max-width: 1024px) {
+  .cercle-design {
+    left: -5%;
+  }
+  .menu-txt {
+    gap: 30px;
+    font-size: 16px;
+  }
+  .menu {
+    gap: 30px;
+  }
+
+  .main-benner-img {
+    width: 641px;
+    height: 696px;
+    margin: 0 auto;
+  }
+  .heading1 {
+    font-size: 60px;
+  }
+  .my-best-btn {
+    margin: 40px 0 80px;
+  }
+
+  .retreat-section {
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+    margin: 30px 0;
+  }
+  .retreat-e-details {
+    margin: 0;
+  }
+  .techings-div {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .teachings-txt {
+    margin: 20px 0;
+  }
+  .column-reverse {
+    flex-direction: column-reverse;
+  }
+  .images1 {
+    margin: auto;
+    max-width: 100%;
+  }
+  .font-18 {
+    margin-bottom: 65px;
+  }
+  .testimony-section {
+    margin: 80px 0;
+    padding: 80px 0;
+  }
+  .testimony-img-details {
+    font-size: 18px;
+    padding: 15px 20px;
+  }
+  .co-founder-txt {
+    font-size: 15px;
+  }
+  .book-now-m-div {
+    flex-direction: column;
+  }
+}
+@media (max-width: 901px) {
+  .menu-txt {
+    gap: 20px;
+    font-size: 14px;
+  }
+  .menu {
+    gap: 20px;
+  }
+  .heading1 {
+    font-size: 53px;
+  }
+  .font-18 {
+    margin-bottom: 30px;
+  }
+
+  .testimony-img-details {
+    font-size: 16px;
+  }
+
+  /* footer start */
+  .footer-s {
+    margin-top: 70px;
+    padding: 70px 0 30px;
+  }
+  .all-footer-div {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  .footer-div1 {
+    max-width: 100%;
+    width: 100%;
+  }
+  .footer-div2 {
+    margin-left: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+  .footer-div3 {
+    max-width: 100%;
+    width: 100%;
+  }
+  .footer-heading {
+    margin-bottom: 15px;
+  }
+  .email123 {
+    margin: 30px 0 20px;
+  }
+  .email-send-btn {
+    width: 100%;
+  }
+  /* footer end */
+}
+@media (max-width: 786px) {
+  /* header section @ start */
+  .cercle-design {
+    left: -15%;
+  }
+  .menu-txt {
+    display: none;
+  }
+  .full-header-div {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 0;
+    position: relative;
+    z-index: 9;
+  }
+  .main-logo {
+    justify-content: center;
+  }
+  .menu {
+    justify-content: space-between;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .popup-css-active{
+    visibility: visible;
+    opacity: 1;
+    transform:scaleY(1) translateX(-50%);
+    box-shadow: 0px 0px 90px black;
+  }
+  .close-bnt-show{
+    display: flex;
+    cursor: pointer;
+  }
+  /* header section @ end */
+
+  /* benner section @ start */
+  .heading1 {
+    font-size: 48px;
+    text-align: center;
+  }
+  .size-20 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .size-18 {
+    font-size: 14px;
+  }
+  .main-benner {
+    justify-content: center;
+  }
+  .flower-design {
+    display: none;
+  }
+  .main-benner-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sales-m-logo {
+    margin: auto;
+  }
+  .main-benner-img {
+    width: 345px;
+    height: 364px;
+    margin: 0 auto;
+  }
+  .my-best-btn {
+    margin: 30px auto 50px;
+  }
+  /* benner section end */
+
+  /* Retreat Experience @ start */
+  .retreat-section {
+    gap: 20px;
+  }
+  .margin-100 {
+    margin: 60px 0;
+  }
+  .font-48 {
+    font-size: 24px;
+  }
+  .font-34 {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  .font-18 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  /* Retreat Experience @ end */
+
+  /* Testimony section start */
+  .testimony-section {
+    margin: 60px 0;
+    padding: 60px 0;
+  }
+  .testimony-img-details {
+    font-size: 14px;
+    padding: 10px 5px;
+  }
+  /* Testimony section end */
+
+  /* members section start */
+  .members-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .testimony-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .co-founder-txt {
+    font-size: 12px;
+  }
+  .meet-amanda {
+    display: none;
+  }
+  .yellow-overlay {
+    display: none;
+  }
+  .meet-amanda-2 {
+    display: flex;
+  }
+  /* members section end */
+
+  .techings-div {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .teachings-txt {
+    margin: 1px 0;
+  }
+  /* footer start */
+  .footer-s {
+    margin-top: 60px;
+    padding: 60px 0 30px;
+  }
+  .footer2-f-div {
+    flex-direction: column;
+    gap: 30px;
+
+    margin-top: 50px;
+  }
+  .hide{
+    display: none;
+  }
+  /* footer end */
+}
